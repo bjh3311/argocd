@@ -21,7 +21,7 @@ spec:
       serviceAccountName: default
       containers:
       - name: my-app
-        image: amdp-registry.skala-ai.com/skala25a/sk073-my-app:1.0.0
+        image: amdp-registry.skala-ai.com/skala25a/sk073-my-app:2.0.0-20-c7a35fa43043
         imagePullPolicy: Always
         env:
         - name: LOGGING_LEVEL
